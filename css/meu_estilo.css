@@ -6,8 +6,16 @@ nav {
     display: flex;
     align-items: center;
     justify-content: end;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px;
 }
 
 a {
+    text-decoration: none;
+}
+a:hover{
     text-decoration: none;
 }
