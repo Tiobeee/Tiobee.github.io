@@ -41,3 +41,11 @@ section:hover{
     background-color: #181818;
     color: rgb(238, 194, 111);
 }
+
+.comando-git{
+    padding: 5px;
+    font-size: 2rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
+    color: #484848;
+}
