@@ -58,3 +58,66 @@ p{
 .conteudo{
     margin-top: 50px;
 }
+
+.git img{
+    width: 650px;
+    height: 400px;
+}
+
+.git {
+    padding: 5px;
+}
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.projeto {
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+}
+
+.projeto>img{
+    width: 100%;
+}
+
+.labels span{
+    color: white;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5px;
+}
+
+.redes{
+    height: 300px;
+    width: 230px;
+    border: #9920a3 solid 5px;
+    margin: 10px;
+}
+
+a>img{
+    height: 190px;
+    width: 230px;
+}
+
+.redes>img{
+    width: 100%;
+}
+
+.labels2 span{
+    color: white;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5px;
+}
+
+#redes_sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

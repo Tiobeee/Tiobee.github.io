@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu site Pessoal</title>
-    <link href="assets/css/meu_estilo.css"
-          type="text/css"
-          rel="stylesheet"
-     >       
+    <link href="assets/css/meu_estilo.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
     <nav>
-       <li><a href="#home">Home </a></li>
-       <li><a href="#projetos">Projetos </a></li> 
-       <li><a href="#redes_sociais">Redes Sociais </a></li>
+        <li><a href="#home">Home </a></li>
+        <li><a href="#projetos">Projetos </a></li>
+        <li><a href="#redes_sociais">Redes Sociais </a></li>
 
     </nav>
     <div class="conteudo">
         <section id="home">
+            <div class="git">
+                <!-- Explicar o que é o GIT e o githubgit
+                pode colocar imagens, alterar o css
+                e enviar para o github -->
+                <h3>Oque é o Git?</h3>
+                <p>
+                    O Git é um projeto de código aberto maduro e com manutenção ativa desenvolvido em 2005 por Linus
+                    Torvalds, o famoso criador do kernel do sistema operacional Linux. Um número impressionante de
+                    projetos de software depende do Git para controle de versão, incluindo projetos comerciais e de
+                    código-fonte aberto. Tendo uma arquitetura distribuída, o Git é um exemplo de DVCS (portanto,
+                    Sistema
+                    de Controle de Versão Distribuído). Em vez de ter apenas um único local para o histórico completo da
+                    versão do software, como é comum em sistemas de controle de versão outrora populares como CVS ou
+                    Subversion (também conhecido como SVN), no Git, a cópia de trabalho de todo desenvolvedor do código
+                    também é um repositório que pode conter o histórico completo de todas as alterações.
+                    <img src="assets/css/imgs/git.jpg" alt="git">
+                </p>
+                <br>
+                <h3>Oque é o Github?</h3>
+                <p>
+                    O GitHub é considerado é uma ferramenta essencial para engenheiros de software, com uma popularidade
+                    sem igual. Atualmente, ele acomoda mais de 25 milhões de usuários. Isso significa que há um número
+                    considerável de profissionais que estão procurando o GitHub para melhorar o fluxo de trabalho e a
+                    colaboração.
+
+                    Em suma, o GitHub é um serviço baseado em nuvem que hospeda um sistema de controle de versão (VCS)
+                    chamado Git. Ele permite que os desenvolvedores colaborem e façam mudanças em projetos
+                    compartilhados enquanto mantêm um registro detalhado do seu progresso.
+                    <br>
+                    <img src="assets/css/imgs/github.jpg" alt="hub">
+                </p>
+
+
+            </div>
+
             <p>Visualiza os arquivos que foram alterados</p>
             <p class="comando-git">
                 git status
             </p>
-           <p>Prepara um arquivo para ser versionado.</p>
+            <p>Prepara um arquivo para ser versionado.</p>
             <p class="comando-git">
                 git add nome_de_um_arquivo
             </p>
             <p>Gera a versão das modificações</p>
             <p class="comando-git">
-                git commit -m "uma mensagem legal que foi 
+                git commit -m "uma mensagem legal que foi
                 feito nos aquivos nesta versão"
             </p>
             <p>Envia para o github</p>
@@ -41,12 +75,56 @@
 
 
         </section>
+        <section id="projetos">
+            <div class="projeto">
+                <img src="assets/css/imgs/Fall-Guys-Ultimate-Knockout.webp">
+                <div>
+                    <P>Um resumo legal de um projeto</P>
+                    <div class="labels">
+                        <span>HTML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="projeto">
+                <img src="assets/css/imgs/kill.jpg">
+                <div>
+                    <P>Um resumo legal de um projeto</P>
+                    <div class="labels">
+                        <span>Javascript</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <section id="redes_sociais">
-            aqui vai ter as redes sociais
+            <div class="redes">
+                <a href="https://www.youtube.com/naofazsentido" target="_blank"><img src="assets/css/imgs/youtube.png"></a>
+                <p>Meu canal do Yotube</p>
+                <div class="labels2">
+                    <span>Youtube</span>
+                </div>
+            </div>
+            <div class="redes">
+                <a href="https://www.instagram.com/suplaoriginal/?hl=pt-br" target="_blank"><img src="assets/css/imgs/insta.png"></a>
+                <p>Instagram de fotos</p>
+                <div class="labels2">
+                    <span>Instagram</span>
+                </div>
+            </div>
+            <div class="redes">
+                <a href="https://twitter.com/cellbit" target="_blank"><img src="assets/css/imgs/twitter.png"></a>
+                <p>Meus maiores pensamentos</p>
+                <div class="labels2">
+                    <span>Twitter</span>
+                </div>
+            </div>
         </section>
     </div>
     <footer>
-        Vai ter um rodapé
+        Site feito por Bernardo Budal
     </footer>
 </body>
+
 </html>
