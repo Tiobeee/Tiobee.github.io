@@ -121,3 +121,9 @@ a>img{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+footer{
+    text-align: center;
+    color: rgb(194, 91, 1);
+    background-color: #b1aeae;
+}
